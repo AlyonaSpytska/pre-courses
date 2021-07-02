@@ -1,15 +1,16 @@
-p[data-description]{
+.super-important {
+  background-color: red;
+}
+
+.highlighted,
+.company-data {
+  color: yellow;
+}
+
+li.user-data  {
   font-size: 24px;
 }
 
-[data-description="anchors"]{
-  background-color: grey;
-}
-
-a[target="_blank"] {
-  color: green;
-}
-
-[type="text"] {
-  background-color: orange;
+span.user-data  {
+  font-size: 10px;
 }
