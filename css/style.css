@@ -1,15 +1,15 @@
-* {
-  background-color: green;
-}
-
-li {
+[data-description]{
   font-size: 24px;
 }
 
-.page-header {
-  background-color: orange;
+[data-description="anchors"]{
+  background-color: grey;
 }
 
-#best {
-  border: 2px solid red;
+a {
+  color: green;
+}
+
+[type="text"] {
+  background-color: orange;
 }
