@@ -6,7 +6,7 @@ p[data-description]{
   background-color: grey;
 }
 
-a {
+a[target="_blank"] {
   color: green;
 }
 
