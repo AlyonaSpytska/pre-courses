@@ -1,9 +1,9 @@
 div {
-  display: flex;
+  display: inline-block;
 }
 
 span {
-  display: inline-block;
+  display: block;
   width: 200px;
   height: 100px;
 }
