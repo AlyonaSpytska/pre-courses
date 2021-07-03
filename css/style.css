@@ -1,31 +1,28 @@
-.square {
-  width: 100px;
-  height: 100px;
+.all_blocks {
+  display: flex;
 }
 
-.red {
-  background-color:red;
-  float: right;
+.all_blocks > div {
+  height: 200px;
+  width: 20%;
 }
 
-.green {
+.block_red {
+  background-color: red;
+}
+
+.block_green {
   background-color: green;
-  float: left;
 }
 
-section {
-  background: aquamarine;
-  padding: 16px;
+.block_blue {
+  background-color: blue;
 }
 
-footer {
-  height: 26px;
-  border: 2px solid black;
-  clear: both;
+.block_yeloow {
+  background-color: yellow;
 }
 
-.container {
-  width: 50%;
-  box-sizing: border-box;
-  float: left;
+.block_black {
+  background-color: #000;
 }
