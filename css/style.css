@@ -1,32 +1,64 @@
 div {
-  margin: 50px;
+  padding: 16px;
 }
 
-.square {
-  width: 100px;
-  height: 50px;
-  border-radius: 16px;
-  background-color: forestgreen;
+.child,
+.parent {
+  border: 2px solid black;
 }
 
-.oval {
-  width: 100px;
-  height: 50px;
-  background-color: darkmagenta;
-  border-radius: 50%;
+.child {
+  position: absolute;
+  top: 90px;
+  right: 40px;
 }
 
-.circle {
+.parent {
+  width: 300px;
+  height: 100px;
+  background-color: yellowgreen;
+}
+
+.static-parent {
+  position: static;
+}
+
+.relative-parent {
+  position: relative;
+  bottom: 20px;
+  right: 50px;
+}
+
+.fixed-parent {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+.absolute-parent {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+
+.child {
+  background: yellow;
+  position: absolute;
+}
+
+.tip {
+  opacity: 1;
+  background-color: whitesmoke;
+  padding: 0 8px;
+}
+
+.green {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
-  background-color: aquamarine;
+  background: green;
+  float: left;
 }
 
-.triangle {
-  width: 0;
-  height: 0;
-  border: 50px solid transparent;
-  border-top: 0;
-  border-top: 50px solid brown;
+.container {
+  height: 2000px;
 }
