@@ -1,21 +1,21 @@
-ul > li {
-  margin-bottom: 16px;
+.theory::first-letter {
+  font-size: 36px;
+  background-color: orange;
+  margin-left: 16px;
 }
 
-ul > li:first-child > span {
+.theory::first-line {
+  font-size: 24px;
+}
+
+.theory::selection {
   background-color: red;
   color: #fff;
 }
 
-ul > li:last-child > span {
-  background-color: #000;
-  color: #fff;
+a::before {
+  content: "<";
 }
-
-li:nth-child(even){
-  padding-left: 16px;
-}
-
-.paragraphs > p:nth-of-type(odd) {
-  background-color: grey;
+a::after {
+  content: ">";
 }
