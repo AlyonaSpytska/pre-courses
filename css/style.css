@@ -1,8 +1,5 @@
-body {
-  background-color: antiquewhite;
-}
-
 .first__div {
+  font-size: 24px;
   box-sizing: border-box;
   width: 420px;
   height: 140px;
