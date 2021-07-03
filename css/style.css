@@ -4,13 +4,13 @@
 }
 
 .red {
-  background-color: green;
-  float: left;
+  background-color:red;
+  float: right;
 }
 
 .green {
-  background-color: red;
-  float: right;
+  background-color: green;
+  float: left;
 }
 
 section {
@@ -19,7 +19,7 @@ section {
 }
 
 footer {
-  height: 24px;
+  height: 26px;
   border: 2px solid black;
   clear: both;
 }
