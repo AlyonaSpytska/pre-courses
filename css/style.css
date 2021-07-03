@@ -13,5 +13,6 @@ body {
 }
 
 .first__div--color {
+  box-sizing: border-box;
   background-color: azure;
 }
