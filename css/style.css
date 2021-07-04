@@ -1,28 +1,10 @@
-.main {
-  min-height: 300px;
-  display: flex;
+header > h1 {
+  text-align: center;
 }
 
-.main > div {
-  width: 20%;
-}
-
-.block_red {
-  background-color: red;
-}
-
-.block_green {
-  background-color: green;
-}
-
-.block_blue {
-  background-color: blue;
-}
-
-.block_yellow {
-  background-color: yellow;
-}
-
-.block_black {
-  background-color: black;
+.article {
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+  min-width: 300px;
 }
