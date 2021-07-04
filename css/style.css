@@ -2,9 +2,16 @@ header > h1 {
   text-align: center;
 }
 
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .article {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  min-width: 300px;
+  width: 300px;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
