@@ -1,28 +1,30 @@
-.all_blocks {
+html {
+  font-size: 24px;
+}
+
+div {
+  margin: 16px;
+  border: 1px solid burlywood;
+}
+
+.horizontal > span {
+  background-color: aqua;
+}
+.vertical > span {
+  background-color: coral;
+}
+
+.horizontal {
+  height: 50px;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.all_blocks > div {
-  height: 200px;
-  width: 20%;
-}
-
-.block_red {
-  background-color: red;
-}
-
-.block_green {
-  background-color: green;
-}
-
-.block_blue {
-  background-color: blue;
-}
-
-.block_yellow {
-  background-color: yellow;
-}
-
-.block_black {
-  background-color: black;
+.vertical {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
