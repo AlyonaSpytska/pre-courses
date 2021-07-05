@@ -1,26 +1,24 @@
-@font-face {
-  font-family: "verdana";
-  src: url("../fonts/verdana.ttf");
+.container {
+  font-size: 1em;
 }
 
-body {
-  font-family: "verdana";
+.list {
+  list-style: none;
+  display: inline-block;
 }
 
-h1 {
-  font-size: 74px;
-  width: 50%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin: 0 auto;
+.list > li {
+  font-size: 1.5em;
 }
 
-div {
-  min-height: 200px;
-  background-color: coral;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 200px;
+.third {
+  border-bottom: 1px solid green;
+}
+
+.second {
+   text-decoration: line-through;
+}
+
+.first {
+  border-top: 1px solid red;
 }
