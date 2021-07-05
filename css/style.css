@@ -4,7 +4,7 @@
 
 .list {
   list-style: none;
-  display: inline-block;
+  padding: 0;
 }
 
 .list > li {
@@ -12,7 +12,8 @@
 }
 
 .third {
-  border-bottom: 1px solid green;
+  text-decoration-color: green;
+  text-decoration-line: underline;
 }
 
 .second {
@@ -20,5 +21,6 @@
 }
 
 .first {
-  border-top: 1px solid red;
+  text-decoration-color: red;
+  text-decoration-line: overline;
 }
