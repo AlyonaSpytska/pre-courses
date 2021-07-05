@@ -1,31 +1,25 @@
-section {
-  margin: 32px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+@font-face {
+  font-family: "verdana";
+  src: url("../fonts/verdana.ttf");
+}
+
+body {
+  font-family: "verdana";
 }
 
 h1 {
-  word-spacing: 20px;
+  font-size: 74px;
+  width: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div {
+  min-height: 200px;
+  background-color: coral;
+  color: white;
   text-align: center;
   text-transform: uppercase;
-}
-
-p {
-  line-height: 28px;
-}
-
-a {
-  text-decoration: none;
-}
-
-strong {
-  letter-spacing: 3px;
-  font-size: 24px;
-  opacity: 0.8;
-  text-decoration: underline;
-}
-
-em {
-  font-style: italic;
-  color: grey;
+  line-height: 200px;
 }
