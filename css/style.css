@@ -9,10 +9,11 @@ body {
 
 h1 {
   font-size: 74px;
-  width: 50%;
+  width: 28%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin: 0 auto;
 }
 
 div {
