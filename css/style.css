@@ -30,6 +30,10 @@
   padding: 16px;
 }
 
+.dropdown:hover {
+  opacity: 1;
+}
+
 .dropdown:hover .menu-list {
   display: block;
 }
