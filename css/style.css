@@ -1,22 +1,9 @@
-.text {
-  margin: 16px;
-  border-bottom: 1px dotted black;
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  
-}
-.tooltip {
-  position: absolute;
-  display: none;
-  background-color: grey;
-  color: white;
-  border-radius: 4px;
-  padding: 8px;
-  bottom: -40px;
-  left: 0;
+.gallery > img {
+  margin: 8px;
 }
 
-.text:hover  .tooltip {
-  display: block;
+.gallery {
+  display: flex;
+  cursor: all-scroll;
+  overflow-x: scroll;
 }
