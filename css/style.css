@@ -1,21 +1,17 @@
-body {
-  box-sizing: border-box;
+div > div {
+  width: 100px;
+  height: 100px;
+  background: coral;
 }
 
-  header > h1 {
-  text-align: center;
+div:first-child {
+  display: none;
 }
 
-.articles-list {
-  display: flex;
-  flex-wrap: wrap;
+div:nth-child(2) {
+  visibility: hidden;
 }
 
-.article {
-  margin: 8px;
-  padding: 16px;
-  background-color: bisque;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 279px;
+div:nth-child(3) {
+  visibility: visible;
 }
