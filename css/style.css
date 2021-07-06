@@ -3,10 +3,11 @@
   height: 500px;
   background-image: url('../img/nature.jpeg');
   background-position:  center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   padding-top: 32px;
   text-align: center;
-  font-size: 32px;
-  color: rgba(255, 255, 255, 0.7);
+  font-size: 32px; 
+  color: white; 
 }
+
