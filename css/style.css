@@ -15,6 +15,5 @@
 }
 
 .third {
-  text-decoration: darkgreen underline;
-  text-decoration-style: inherit;
+  text-decoration: green underline;
 }
