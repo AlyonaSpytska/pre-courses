@@ -1,12 +1,14 @@
 
-
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 .list {
   list-style: none;
 }
 
-.list > li {
-  font-size: 1.5em;
+ul.list > li {
+  font-size: 2em;
 }
 
 .first {
