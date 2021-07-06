@@ -16,4 +16,5 @@
 
 .third {
   text-decoration: darkgreen underline;
+  text-decoration-style: inherit;
 }
