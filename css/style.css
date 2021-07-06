@@ -16,8 +16,8 @@
 }
 
 .third {
-  text-decoration: green underline;
-  text-decoration-style: solid;
+  text-decoration: underline;
+  text-decoration-color: green;
 }
 
 
