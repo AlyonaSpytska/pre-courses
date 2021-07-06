@@ -1,16 +1,14 @@
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
+  font-family: 'Roboto';
 }
 
 .list {
   list-style: none;
 }
 
- li {
-  font-size: 1.6em;
-  letter-spacing: 1.5px;
+.list > li {
+  font-size: 1.5em;
 }
 
 .first {
