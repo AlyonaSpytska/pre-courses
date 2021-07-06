@@ -1,14 +1,27 @@
-html {
+.rectangle {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+}
+
+.text {
   font-size: 18px;
+  line-height: 24px;
 }
 
-.properties-list {
+.text::first-letter {
+  color: red;
+}
+
+.new {
+  color: grey;
+}
+
+.rectangle {
+  background-color: blueviolet;
+}
+
+.text::first-letter {
+  color: green;
   font-size: 24px;
-  line-height: 32px;
-  list-style: none;
-  color: #f39;
-}
-
-.properties-list__item {
-  padding: 8px;
 }
