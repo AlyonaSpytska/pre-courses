@@ -1,10 +1,13 @@
-* {
+body {
   box-sizing: border-box;
 }
 
 .image-container {
-  display: block;
   margin: 50px auto;
+  display: table;
+}
+
+.main-img {
   max-width: 100%;
   border-radius: 20px;
 }
