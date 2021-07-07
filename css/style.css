@@ -2,13 +2,17 @@
   box-sizing: border-box;
 }
 
-.image-container {
-  margin: 50px auto;
+.image-container > img {
+  margin: 50px 0;
+}
+
+.image-container > img {
   border-radius: 20px;
   max-width: 100%;
   display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
-
 
 .gallery {
   display: flex;
