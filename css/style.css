@@ -2,13 +2,12 @@ body {
   box-sizing: border-box;
 }
 
-.image-container {
+.image-container > img {
   margin: 50px auto;
-  border-radius: 20px;
-  max-width: 100%;
   display: block;
+  max-width: 100%;
+  border-radius: 20px;
 }
-
 
 .gallery {
   display: flex;
@@ -22,17 +21,14 @@ body {
 .caption {
   line-height: 30px;
   text-align: center;
-  text-transform: lowercase;
 }
 
 .opacity-filter {
   filter: opacity(50%);
 }
-
 .blur-filter {
   filter: blur(4px);
 }
-
 .invert-filter {
   filter: invert(100%);
 }
