@@ -1,30 +1,51 @@
-
-
-
-input[type="checkbox"] {
-  visibility: hidden;
-  width: 0;
-  height: 0;
+body {
+  box-sizing: border-box;
+  background-color: bisque;
+  font-family: monospace;
 }
 
-.checkmark {
+.form {
+  font-size: 16px;
+  width: 300px;
+  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: aqua;
+  top: calc(50% - 189px);
+  left: calc(50% - 150px);
   position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  background-color: #d3d3d3;
 }
 
-.checkbox {
-  position: relative;
-  padding-left: 35px;
-  margin: 16px;
-  font-size: 24px;
-  display: inline-block;
+.form__title {
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.checkbox input:checked + .checkmark {
-  background-color: #006400;
-} 
+.label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form > input {
+  width: 100%;
+  margin-bottom: 8px;
+  line-height: 32px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 4px;
+  outline: none;
+}
+
+.form > input:disabled {
+  border: 3px solid #ff0000;
+}
+
+.button {
+  width: 100%;
+  line-height: 32px;
+  background-color: #ff7f50;
+  border: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 16px;
+}

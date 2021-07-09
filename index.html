@@ -13,11 +13,19 @@
 </head>
 
 <body>
-    <label class="checkbox">
-      Checkbox
-      <input id="custom-checkbox" type="checkbox" name="agree">
-      <span class="checkmark" for="custom-checkbox"></span>
-    </label>
+  <form class="form">
+    <h1 class="form__title">Login</h1>
+    <label class="label" for="form__email">Email</label>
+    <input id="form__email" type="email">
+
+    <label class="label" for="form__name">Last Name</label>
+    <input id="form__name" type="text">
+
+    <label class="label" for="form__pass">Password</label>
+    <input id="form__pass" type="password">
+
+    <button class="button" type="submit">Submit</button>
+  </form>
 </body>
 
 </html>
