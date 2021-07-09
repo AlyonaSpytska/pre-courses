@@ -2,9 +2,6 @@ body {
   box-sizing: border-box;
 }
 
-div {
-  margin: 16px;
-}
 
 #custom-checkbox {
   visibility: hidden;
@@ -28,6 +25,7 @@ div {
   padding-left: 35px;
   margin: 16px;
   font-size: 24px;
+  display: block;
 }
 
 .checkbox input:checked + .checkmark {
