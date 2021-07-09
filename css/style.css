@@ -1,3 +1,12 @@
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 div {
   margin: 16px;
+}
+
+.label {
+  margin-left: -5px;
 }
