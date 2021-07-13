@@ -10,8 +10,8 @@ body {
   padding: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: aqua;
-  top: calc(50% - 189px);
-  left: calc(50% - 150px);
+  top: calc(50% - 150px);
+  left: calc(50% - 165px);
   position: absolute;
 }
 
@@ -43,7 +43,6 @@ body {
   width: 100%;
   line-height: 32px;
   background-color: #ff7f50;
-  border: 0;
   border-radius: 4px;
   text-transform: uppercase;
   color: #fff;
