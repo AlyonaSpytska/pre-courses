@@ -2,15 +2,15 @@ body {
   box-sizing: border-box;
   background-color: bisque;
   font-family: monospace;
+  font-size: 16px;
 }
 
 .login-form {
-  font-size: 16px;
   width: 300px;
   padding: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: aqua;
-  top: calc(50% - 150px);
+  top: calc(50% - 140px);
   left: calc(50% - 165px);
   position: absolute;
 }
@@ -25,10 +25,14 @@ body {
   margin-bottom: 4px;
 }
 
-.form-input {
+.form-control {
   width: 100%;
+  display: grid;
+}
+
+.form-input {
   margin-bottom: 8px;
-  line-height: 32px;
+  height: 32px;
   border-radius: 4px;
   border: 1px solid #808080;
   padding: 4px;
@@ -41,7 +45,6 @@ body {
 
 .submit-button {
   width: 100%;
-  border: hidden;
   line-height: 32px;
   background-color: #ff7f50;
   border-radius: 4px;
