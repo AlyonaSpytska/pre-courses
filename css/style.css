@@ -1,20 +1,18 @@
-body {
+.page {
   box-sizing: border-box;
   background-color: bisque;
   font-family: monospace;
   font-size: 16px;
+  height: 100vh;
+  display: flex;
 }
 
 .login-form {
-  width: 268px;
+  width: 300px;
   padding: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: aqua;
-  /* top: calc(50% - 173px); */
-  top: 50%; /* 3 */
-  transform: translate(0, -51%);
-  left: calc(50% - 150px);
-  position: absolute;
+  margin: auto;
 }
 
 .form-title {
