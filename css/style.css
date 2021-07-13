@@ -12,7 +12,7 @@ body {
   background-color: aqua;
   /* top: calc(50% - 173px); */
   top: 50%; /* 3 */
-  transform: translate(50%, -50%);
+  transform: translate(0, -50%);
   left: calc(50% - 150px);
   position: absolute;
 }
