@@ -21,6 +21,8 @@ button {
 
 div {
   margin: 8px;
+  display: flex;
+  align-items: center;
 }
 
 div > input {
