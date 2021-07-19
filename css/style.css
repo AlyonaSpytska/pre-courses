@@ -26,3 +26,11 @@ div {
 div > input {
   margin: 0;
 }
+
+label {
+  margin-right: 4px;
+}
+
+#agree {
+  margin-bottom: 12px;
+}
