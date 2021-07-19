@@ -19,6 +19,10 @@ button {
   display: block;
 }
 
+div {
+  margin: 8px;
+}
+
 div > input {
   margin: 0;
 }
