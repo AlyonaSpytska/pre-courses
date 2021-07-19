@@ -1,12 +1,17 @@
- body {
-   box-sizing: border-box;
- }
+body {
+  box-sizing: border-box;
+}
 
- form {
-   margin: 32px;
-   display: inline-grid;
- }
+form {
+  margin: 32px;
+}
 
- input {
-   margin: 8px 0;
- }
+div {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  margin: 8px 0;
+  display: block;
+}
