@@ -10,3 +10,6 @@ div {
   margin: 8px;
 }
 
+label {
+  margin-left: -4px;
+}
