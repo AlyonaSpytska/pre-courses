@@ -7,33 +7,6 @@ form {
 }
 
 div {
-  display: flex;
-  align-items: center;
-}
-
-input,
-select,
-button {
-  margin: 8px;
-  display: block;
-}
-
-textarea {
-  margin-left: 8px;
-}
-
-div {
   margin: 8px;
 }
 
-div > input {
-  margin: 0;
-}
-
-label {
-  margin-right: 4px;
-}
-
-#like {
-  margin: 12px 8px;
-}
