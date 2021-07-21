@@ -20,9 +20,10 @@ th {
 
 td,
 th {
-  line-height: 40px;
+  height: 31px;
   padding: 4px;
 }
+
 
 th {
   background-color: aqua;
