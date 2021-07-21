@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 .chess-board {
   text-transform: uppercase;
@@ -6,11 +11,13 @@
   border-spacing: 0;
   border-collapse: collapse;
   border: 1px solid #000;
+  text-align: center;
 }
 .chess-board th {
   padding: 16px;
   font-weight: normal;
-  width: 17px;
+  width: 50px;
+  height: 50px;
 }
 .chess-board td {
   border: 1px solid #000;
