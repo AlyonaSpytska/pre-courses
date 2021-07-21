@@ -9,11 +9,13 @@
 }
 .chess-board th {
   padding: 16px;
+  font-weight: normal;
+  width: 17px;
 }
 .chess-board td {
   border: 1px solid #000;
-  width: 50px;
-  height: 50px;
+  width: 47px;
+  height: 47px;
 }
 .chess-board .light {
   background: #fff;
