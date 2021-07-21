@@ -1,35 +1,31 @@
 div {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: end;
 }
 
-.first-btn,
-.scnd-btn {
-  width: 200px;
-  height: 50px;
-  color: #fff;
-  background-color: coral;
-  font-size: 16px;
-  text-transform: uppercase;
+button {
   border: 0;
-  font-weight: 700;
-  font-family: "Courier New", Courier, monospace;
-  border-radius: 4px;
-  margin: 64px;
+  background-color: transparent;
   cursor: pointer;
-  line-height: 50px;
 }
 
-.bird {
-  fill: #fff;
-  vertical-align: middle;
-}
-.first-btn:hover,
-.first-btn:hover > .bird,
-.scnd-btn:hover {
-  color: darkcyan;
-  fill: green;
+.full {
+  font-size: 16px;
 }
 
- 
+.three-quarters {
+  font-size: 32px;
+}
+
+.half {
+  font-size: 64px;
+}
+
+.quarters {
+  font-size: 128px;
+}
+
+.empty {
+  font-size: 256px;
+}
