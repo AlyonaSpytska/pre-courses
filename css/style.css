@@ -27,7 +27,6 @@ th {
 
 th {
   background-color: aqua;
-  font-weight: 700;
 }
 
 caption {
@@ -41,4 +40,8 @@ tbody > tr:nth-child(odd) {
 tbody > tr:hover {
   background-color: #aaa;
   color: #fff;
+}
+
+tfoot > tr {
+  font-weight: 700;
 }
