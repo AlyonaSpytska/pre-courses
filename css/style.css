@@ -5,7 +5,6 @@
 }
 
 .chess-board {
-  text-transform: uppercase;
   margin: 16px;
   box-sizing: border-box;
   border-spacing: 0;
