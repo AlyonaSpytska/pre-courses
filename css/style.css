@@ -7,7 +7,7 @@
 }
 
 .spinner {
-  position: relative;
+  
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   text-transform: uppercase;
@@ -20,7 +20,7 @@
 }
 
 .rect {
-  position: absolute;
+  position: relative;
   width: 10px;
   height: 4px;
   border-radius: 2px;
@@ -36,7 +36,7 @@
     opacity: 1;
   }
   to {
-    left: 85px;
+    left: 70px;
   }
 }
 
