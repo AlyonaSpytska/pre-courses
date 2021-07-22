@@ -31,16 +31,13 @@
 }
 
 @keyframes moving {
-  0% {
+  from {
     left: 0;
     opacity: 1;
   }
-  50% {
+  to {
     left: 85px;
   }
-  100% {
-    left: 0;
-  } 
 }
 
 @keyframes blinking {
