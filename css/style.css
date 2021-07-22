@@ -47,20 +47,35 @@
 }
 
 @keyframes loading {
-  25% {
-    border: 4px solid lightgrey;
+  0% {
     border-top: 4px solid black;
+    border-right: 4px solid lightgrey;
+    border-bottom: 4px solid lightgrey;
+    border-left: 4px solid lightgrey;
+  }
+  25% {
+    border-right: 4px solid black;
+    border-top: 4px solid lightgrey;
+    border-bottom: 4px solid lightgrey;
+    border-left: 4px solid lightgrey;
   }
   50% {
-    border: 4px solid lightgrey;
-    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid lightgrey;
+    border-top: 4px solid lightgrey;
+    border-left: 4px solid lightgrey;
   }
   75% {
-    border: 4px solid lightgrey;
-    border-bottom: 4px solid black;
-  }
-  100% {
-    border: 4px solid lightgrey;
     border-left: 4px solid black;
+    border-bottom: 4px solid lightgrey;
+    border-right: 4px solid lightgrey;
+    border-top: 4px solid lightgrey;
+  }
+
+  100% {
+    border-top: 4px solid black;
+    border-right: 4px solid lightgrey;
+    border-bottom: 4px solid lightgrey;
+    border-left: 4px solid lightgrey;
   }
 }
