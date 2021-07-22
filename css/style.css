@@ -28,7 +28,7 @@
   animation: loading 2s ;
   animation-iteration-count: infinite;
   transition-timing-function: ease-in;
-  transform: rotate(25deg);
+  transform: rotate(45deg);
 }
 
 @keyframes blinking {
