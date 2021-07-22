@@ -27,8 +27,8 @@
   border-radius: 50%;
   animation: loading 2s;
   animation-iteration-count: infinite;
-  transition-timing-function: linear;
-  transform: rotate(45deg);
+  transition-timing-function: ease-in;
+  transform: rotate(30deg);
 }
 
 @keyframes blinking {
