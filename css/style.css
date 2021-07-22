@@ -25,7 +25,7 @@
   margin: 0 auto 8px;
   border: 4px solid lightgrey;
   border-radius: 50%;
-  animation: loading 2s;
+  animation: loading 2s ;
   animation-iteration-count: infinite;
   transition-timing-function: ease-in;
   transform: rotate(25deg);
@@ -49,10 +49,10 @@
   0% {
     border-top: 4px solid black;
   }
-  25% {
+  50% {
     border-right: 4px solid black;
   }
-  50% {
+  75% {
     border-bottom: 4px solid black;
   }
   100% {
