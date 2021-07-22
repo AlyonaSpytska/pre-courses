@@ -1,51 +1,40 @@
-.container {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
   height: 100vh;
   display: flex;
+  justify-content: center;
 }
 
-.spinner {
-  margin: auto;
-}
-
-.spinner-text {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 16px;
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: coral;
+  color: #fff;
   text-transform: uppercase;
-  animation: blinking 2s;
-  animation-iteration-count: infinite;
-  transition-timing-function: linear;
-}
-
-.rect {
-  position: relative;
-  width: 10px;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #000;
-  animation: moving 2s, blinking 2s;
-  animation-iteration-count: infinite;
+  border-radius: 10px;
+  animation: top 2s;
   transition-timing-function: ease;
-  animation-direction: alternate;
+  animation-fill-mode: forwards;
 }
 
-@keyframes moving {
-  from {
-    left: 0;
-    opacity: 1;
-  }
-  to {
-    left: 70px;
-  }
-}
-
-@keyframes blinking {
+@keyframes top {
   0% {
-    opacity: 0;
+    top: -100px;
   }
-  50% {
-    opacity: 1;
-  }
+
   100% {
-    opacity: 0;
+    top: calc(50vh - 50px);
   }
 }
